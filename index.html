@@ -5,13 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Island</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <h1>Island</h1>
-    <div id="wrap">
+    <!-- <div id="wrap">
         <img id="map" src="images/map.jpg">
-    </div>
+    </div> -->
+    <svg id="wrap" height="570" width="768">
+        <circle id="circle" cx="50" cy="50" r="0" fill="red" />
+    </svg>
+    <button id="getClue">Get clue</button>
     <input id="coords" value="Наведіть мишку на карту" />
     <input id="distance" value="Наведіть мишку на карту" />
     <script src="./script.js"></script>
